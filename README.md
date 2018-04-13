@@ -1,6 +1,6 @@
 # heroku-node-proxy
 
-本工程是 [node-unblocker](https://github.com/nfriedly/node-unblocker) 的一个副本，只是修改了工程结构，以便于直接在Heroku上部署; 作者的版本里, 所有的代理请求被到 http, 在这种场景下因为URL中含有，连接会被GFW重置。因此，在该副本里，修改了代码让所有代理请求全使用https
+本工程是 [node-unblocker](https://github.com/nfriedly/node-unblocker) 的一个副本，只是修改了工程结构，以便于直接在Heroku上部署;  原作者的版本里, 所有的代理请求被到 http, 在这种场景下, URL中含有敏感域名会导致连接被GFW重置。因此，在该副本里，修改了代码让所有代理请求全使用https
 
 node-unblocker相对于PHP的web代理性能要好，在Heroku部署简单。 在线试用 https://gfw-breaker.herokuapp.com/
 

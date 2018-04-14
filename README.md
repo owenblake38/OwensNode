@@ -5,3 +5,5 @@
 node-unblocker相对于PHP的web代理性能要好，在Heroku部署简单。 在线试用 https://gfw-breaker.herokuapp.com/
 
 若您担心使用别人提供的服务器可能会泄漏个人隐私，可以选择搭建自己的Web代理。Heroku提供免费账号，且不需要绑定信用卡，部署简单，请参考 [WIKI](https://github.com/gfw-breaker/heroku-node-proxy/wiki)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)

@@ -12,4 +12,6 @@ node-unblocker相对于PHP的web代理性能要好，且易于在Heroku上部署
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+注：此代理适用于大多数网站，但无法播放YouTube视频。观看YouTube视频，请使用 [you2php-heroku](https://github.com/gfw-breaker/you2php-heroku#--end--)。
+
 ###### --End--

@@ -1,5 +1,5 @@
 ## 基于node unblocker的通用web代理
-## GFW已经开始干扰 herokuapp.com的SSL, 导致该方法失效 ！！
+## GFW已经开始干扰 herokuapp.com的SSL, 导致有时网络不稳定
 本工程是 [node-unblocker](https://github.com/nfriedly/node-unblocker) 的一个副本，只是修改了工程结构，以便于直接在Heroku上部署;  原作者的版本里, 所有的代理请求被到 http, 在这种场景下, URL中含有敏感域名会导致连接被GFW重置。因此，在该副本里，修改了代码让所有代理请求全使用https。
 
 在线试用： https://banned-sites007.herokuapp.com/ 
